@@ -9,7 +9,7 @@ html, body {
     display: inline;
 }*/
 
-.nav .menu_item > a {
+/*.nav .menu_item > a {
     font-size: 1rem;
     color: #007cbb;
     display: block;
@@ -25,7 +25,7 @@ html, body {
     zoom: 1;
     * display: inline;
     * vertical-align: auto;
-}
+}*/
 
 /*ul {
     border: 1px solid #e7e7e7;
@@ -35,6 +35,29 @@ html, body {
 li a {
     color: #666;
 }*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
 
 h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
