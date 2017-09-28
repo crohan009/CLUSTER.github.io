@@ -4,7 +4,7 @@ html, body {
   width: 100%;
   height: 100%;
 }
-.navigation {
+.navigation  {
     background-color: black; 
     width: 100%;
     height: 7em;
@@ -15,6 +15,15 @@ html, body {
     align-items: center;
 }
 
+footer {
+    background-color: black; 
+    width: 100%;
+    height: 7em;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 .navigation div {
     
    -webkit-flex: 1; /* Safari 6.1+ */
@@ -97,4 +106,22 @@ h1 {
 	font-weight: 500;
 	line-height: 26.4px;
 	color: #666666;
+}
+a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-size: 48px;*/
+  color: #ffffff;
+  font-style: normal; 
+  margin-left: 1em;
+  margin-right: 1em;
+ /* display: inline-block;*/
+  /*align-items: center; */
+}
+
+div.center {
+
+  display: inline-block;
+  
+  margin-left: auto;
+  margin-right: auto;
 }
