@@ -107,13 +107,23 @@ h1 {
 	line-height: 26.4px;
 	color: #666666;
 }
-a {
+.footer_link {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-size: 48px;*/
+  color: #ffffff;
+  font-style: bold; 
+  margin-left: 1em;
+  margin-right: 1em;
+ /* display: inline-block;*/
+  /*align-items: center; */
+}
+.menu_button {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*font-size: 48px;*/
   color: #ffffff;
   font-style: normal; 
-  margin-left: 1em;
-  margin-right: 1em;
+/*  margin-left: 1em;
+  margin-right: 1em;*/
  /* display: inline-block;*/
   /*align-items: center; */
 }
