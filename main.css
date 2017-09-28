@@ -7,7 +7,7 @@ html, body {
 .navigation  {
     background-color: black; 
     width: 100%;
-    height: 7em;
+    height: 9vw;
 /*     border: 1px solid rgb(162, 30, 26);  */
     display: -webkit-flex; /* Safari */
     -webkit-align-items: left; /* Safari 7.0+ */
@@ -18,7 +18,7 @@ html, body {
 footer {
     background-color: black; 
     width: 100%;
-    height: 7em;
+    height: 7vw;
     color: #ffffff;
     display: inline-flex;
     align-items: center;
@@ -78,7 +78,7 @@ li a {
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 20px 56px;
+    padding: 2vw 4vw;
     text-decoration: none;
 }
 
@@ -89,8 +89,8 @@ li a:hover {
 
 .nav {
 /*     display: block; */
-	border: 2px solid rgb(144, 18, 192);
-/*     width: 20%; */
+/*	border: 2px solid rgb(144, 18, 192);
+*//*     width: 20%; */
     
 }
 
@@ -100,20 +100,21 @@ li a:hover {
 
 h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 48px;
+	font-size: 4vw;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 26.4px;
+	line-height: 26.4vw;
 	color: #666666;
+
 }
 .footer_link {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*font-size: 48px;*/
   color: #ffffff;
   font-style: bold; 
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 1vw;
+  margin-right: 1vw;
  /* display: inline-block;*/
   /*align-items: center; */
 }
