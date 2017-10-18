@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 
 #background {
     width: 100%; 
@@ -23,13 +26,75 @@ html, body {
 }
 .navigation  {
     background-color: black; 
+    padding: 0;
+    margin: 0;
     width: 100%;
     height: 9vw;
+/*     top: 0; */
 /*     border: 1px solid rgb(162, 30, 26);  */
     display: -webkit-flex; /* Safari */
     -webkit-align-items: left; /* Safari 7.0+ */
     display: flex;
     align-items: center;
+}
+.tutorials-container {
+/*   background-color: blue; 
+    width: 100%;
+    height: auto; */
+   display: grid;
+  grid-template-columns: 30% 30% 33% ;
+  grid-gap: 3vw;
+  margin-left: 3vw;
+
+  background-color: #000;
+  color: #fff;
+}
+.tutorials-container-wrapper {
+/*   background-color: blue; 
+    width: 100%;
+    height: auto; */
+	height: auto;
+  background-color: #000;
+  color: #fff;
+}
+
+.tutorial-box {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+  margin-top: 3vw;
+/*   padding: 0vw; */
+/*   font-size: 150%; */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  line-height: 1.8;
+  padding: 1rem;
+}
+
+
+.tutorial-box-hidden {
+  background-color: #000;
+  color: #000;
+    margin-top: 3vw;
+  border-radius: 0;
+  padding: 0vw;
+  font-size: 150%;
+}
+
+.bepro h2 { display: inline-block; font-size: 2rem; font-weight: 700; margin-top: 0; color: rgb(159, 0, 0); line-height: 1.2; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+.bepro h3 { display: inline-block; font-size: 2rem; font-weight: 700; margin-top: 0;  line-height: 1.2; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+.tutorial-box a { padding: 0.7vw ; width: 50%; display: block; color: #fff; text-decoration: none; background: rgba(38, 38, 38, 0.5); transition: .4s background; border-bottom: none; margin: 1rem auto; text-align: center; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+.tutorial-box a:hover {
+    background-color: #2e2e2e;
+    color: #fff;    
+}
+
+.pre-footer-container {
+/*   background-color: blue; 
+    width: 100%;
+    height: auto; */
+	height: 6vw;
+  background-color: #3b3b3b;
+  color: #fff;
 }
 
 footer {
@@ -99,11 +164,11 @@ li a {
     text-align: center;
     padding: 1.7vw 4vw;
     text-decoration: none;
-    
+    transition: .6s background;
 }
 
 li a:hover {
-    background-color: #1c1c1c;
+    background-color: #202020;
     color: #fff;
     
 }
@@ -121,11 +186,11 @@ li a:hover {
 
 h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 4vw;
+	font-size: 3vw;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4vw;
+	font-weight: 300;
+/* 	line-height: 26.4vw; */
 	color: #666666;
 
 }
@@ -171,7 +236,7 @@ div.center {
 .video-foreground,
 .video-background video {
   position: relative;
-  top: 4vw;
+/*   top: 4vw; */
   left: 0;
   width: 100%;
   height: 100%;
@@ -180,18 +245,20 @@ div.center {
 .video-foreground,
 .video-background iframe {
   position: fixed;
-  top: 4vw;
+/*   top: 4vw; */
   left: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
 }
 #vidtop-content {
-height: 70%;
+height: 60%;
   top: 0;
-  color: #fff;
-    position: relative ;
-    bottom: 7vw;
+  color: #ffffff;
+    position: relative;
+    overflow: auto; 
+/*     position: absolute ; */
+/*     bottom: 20vw; */
 }
 .vid-info { position: fixed; top: 9vw; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem;  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 1.8;}
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
