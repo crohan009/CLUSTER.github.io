@@ -99,15 +99,18 @@ html, body {
 
 footer {
   /*position: relative;*/
-
+    position:fixed;
+    left:0px;
+    bottom:0px;
     background-color: black; 
     width: 100%;
     height: 7vw;
     color: #ffffff;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
+
 .navigation div {
     
    -webkit-flex: 1; /* Safari 6.1+ */
@@ -347,3 +350,4 @@ height: 60%;
         top: 50%;
     }
 }
+
